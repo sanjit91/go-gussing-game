@@ -17,7 +17,7 @@ func main() {
 	// store a attempt number
 	attempt := 10
 	for attempt > 0 {
-		// read the input from stdin n
+		// read the input from stdin number
 		fmt.Println("Enter your number: ")
 		var input int
 		_, err := fmt.Scan(&input)
